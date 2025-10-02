@@ -1,0 +1,46 @@
+/* ==========================================
+   PROJECT 2: LOCAL FAVORITES TRACKER
+   ========================================== */
+
+/* ==========================================
+   CSS RESET & BASE STYLES (Step 3A)
+   ========================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+/* ==========================================
+   CONTAINER & LAYOUT (Step 3B)
+   ========================================== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ==========================================
+   HEADER (Step 3C)
+   ========================================== */
+header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.subtitle {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
